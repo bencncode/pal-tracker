@@ -15,7 +15,7 @@ public class EnvController {
     private final String memoryLimit;
     private final String cfInstanceIndex;
     private final String cfInstanceAddress;
-   //command
+
     public EnvController(
             @Value("${PORT:NOT SET}") String port,
             @Value("${MEMORY_LIMIT:NOT SET}") String memoryLimit,
